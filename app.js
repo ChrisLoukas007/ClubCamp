@@ -33,7 +33,7 @@ mongoose.set("strictQuery", false); //this is needed because Mongoose7 will have
 
 mongoose.connect(dbUrl, {
 	useNewUrlParser: true,
-	useUnifiedTopology: true,
+	// useUnifiedTopology: true,
 });
 
 // mongoose.connect("mongodb://localhost:27017/greece-club", {});
