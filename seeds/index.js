@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const firstClubs = require("./firstClubs");
 const Club = require("../models/club");
 
-mongoose.connect("mongodb://localhost:27017/greece-club", {
+mongoose.connect("mongodb://localhost:27017/club-camp", {
 	// useNewUrlParser: true,
 	useUnifiedTopology: true,
 	//useCreateIndex: true, it's not supported
